@@ -1,0 +1,41 @@
+.recipe-input {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  margin-bottom: 10px; /* Add margin between input fields */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4fa3d7;
+}
+
+.delete-all-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f44336; /* Red background */
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-all-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
